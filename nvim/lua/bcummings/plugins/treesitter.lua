@@ -3,7 +3,7 @@ if not status then
     return
 end
 
-treesitter.setup(
+treesitter.setup({
     highlight = { enable = true },
     indent = { enable = true },
     autotag = { enable = true },
@@ -12,7 +12,6 @@ treesitter.setup(
         "javascript",
         "typescript",
         "tsx",
-        "jsx",
         "yaml",
         "html",
         "css",
@@ -26,4 +25,4 @@ treesitter.setup(
         "gitignore",
     },
     auto_install = true
-)
+})
