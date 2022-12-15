@@ -8,13 +8,27 @@ local ensure_packer = function()
     end
     return false
 end
-
 local packer_bootstrap = ensure_packer()
 
-return require("packer").startup(function(use)
+-- automatically install/update/remove plugins when file is saved.
+vim.cmd([[
+    augroup packer_user_config
+        autocmd!
+        autocmd BufWritePost plugins-setup.lua source <afile> | PackerSync
+    augroup end
+]])
+
+local status, packer = pcall(require, "packer")
+if not status then
+    return 
+end
+
+return packer.startup(function(use)
     use("wbthomason/packer.nvim")
+    use("nvim-lua/plenary.nvim")
     use("rose-pine/neovim")
     use("nvim-tree/nvim-tree.lua")
+    use("nvim-tree/nvim-web-devicons")
 
     use({
         "nvim-treesitter/nvim-treesitter",
