@@ -178,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\bcummings\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "C:\\Users\\bcummings\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
