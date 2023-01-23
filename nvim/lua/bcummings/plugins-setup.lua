@@ -45,6 +45,8 @@ return packer.startup(function(use)
     use("szw/vim-maximizer")
     use("tpope/vim-surround")
     use("inkarkat/vim-ReplaceWithRegister")
+    use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
+    use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" })
 
     use({
         "nvim-treesitter/nvim-treesitter",

@@ -159,6 +159,16 @@ _G.packer_plugins = {
     path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
     path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
