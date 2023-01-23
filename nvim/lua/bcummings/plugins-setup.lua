@@ -20,13 +20,13 @@ vim.cmd([[
 
 local status, packer = pcall(require, "packer")
 if not status then
-    return 
+    return
 end
 
 return packer.startup(function(use)
     use("wbthomason/packer.nvim")
     use("nvim-lua/plenary.nvim")
-    use("rose-pine/neovim")
+    use("bluz71/vim-nightfly-guicolors")
     use("christoomey/vim-tmux-navigator")
     use("nvim-tree/nvim-tree.lua")
     use("nvim-tree/nvim-web-devicons")
@@ -44,7 +44,7 @@ return packer.startup(function(use)
     use("numToStr/Comment.nvim")
     use("szw/vim-maximizer")
     use("tpope/vim-surround")
-    use("inkarkat/vim-ReplaceWithRegister") 
+    use("inkarkat/vim-ReplaceWithRegister")
 
     use({
         "nvim-treesitter/nvim-treesitter",
