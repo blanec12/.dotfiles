@@ -26,7 +26,7 @@ end
 return packer.startup(function(use)
     use("wbthomason/packer.nvim")
     use("nvim-lua/plenary.nvim")
-    use("bluz71/vim-nightfly-guicolors")
+    use("folke/tokyonight.nvim")
     use("christoomey/vim-tmux-navigator")
     use("nvim-tree/nvim-tree.lua")
     use("nvim-tree/nvim-web-devicons")

@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,
     path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/vim-ReplaceWithRegister",
@@ -178,11 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/home/bcummings/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = true,

@@ -11,4 +11,3 @@ require("bcummings.plugins.lsp.null-ls")
 require("bcummings.plugins.autopairs")
 require("bcummings.plugins.treesitter")
 require("bcummings.plugins.telescope")
-
