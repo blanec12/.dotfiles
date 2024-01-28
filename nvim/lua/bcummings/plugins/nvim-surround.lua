@@ -1,5 +1,6 @@
 return {
-	"lewis6991/gitsigns.nvim",
+	"kylechui/nvim-surround",
 	event = { "BufReadPre", "BufNewFile" },
 	config = true,
 }
+
