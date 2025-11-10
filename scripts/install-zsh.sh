@@ -6,7 +6,7 @@ if ! command -v zsh &>/dev/null; then
     sudo apt install -y zsh
 fi
 
-if ["$SHELL" != "$(which zsh)"]; then
+if [ "$SHELL" != "$(which zsh)" ]; then
     chsh -s "$(which zsh)"
 fi
 
